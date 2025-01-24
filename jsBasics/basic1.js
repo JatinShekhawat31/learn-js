@@ -9,9 +9,12 @@ var accountpassword = "123456";
 
 // console.log(accountId);
 
+// let accountpassword, (undefined)
+
 accountEmail = "jatin@gmail.com";
 console.log(accountEmail);
 
 // accountId = "321";
 // connot be reassigned 
 
+console.log([ accountId, accountEmail, accountpassword ]);
