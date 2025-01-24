@@ -18,4 +18,11 @@ null = standalone value
 undefined = value is not assinged 
 symbol = unique 
 */
+// primitive data types
 
+/*
+Array
+Object
+Function
+*/
+// non primitive data types
