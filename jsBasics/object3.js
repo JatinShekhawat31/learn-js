@@ -18,5 +18,3 @@ const {courseInstructor: instructor} = course;
 // const instructor = course.courseInstructor;
 console.log(instructor); // Jatin
 
-
-
