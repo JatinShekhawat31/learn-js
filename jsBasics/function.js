@@ -10,7 +10,7 @@ function sayMyName()
 sayMyName(); // JATIN
 
 // Function with parameters
-function addTwoNumbers(num1,num2)
+function addTwoNumbers(num1,num2) 
 {
     // console.log(num1 + num2);
 }
@@ -24,3 +24,16 @@ function addThreeNumber (num1, num2, num3)
 }
 const result = addThreeNumber(10, 20, 30);
 console.log ("result: ", result); // 30
+
+function loginUserMessage(username)
+{
+    return `Welcome ${username}`;
+}
+console.log(loginUserMessage('Jatin')); // Welcome Jatin
+
+// Function with default parameters
+function greetUser(username = 'Guest')
+{
+    return `Welcome ${username}`;
+}
+console.log(greetUser('Jatin')); // Welcome Jatin
